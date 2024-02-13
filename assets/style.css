@@ -1,0 +1,101 @@
+body {
+    background-color: #ff9bb7;
+    color: #ea1f1f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+img {
+    width: 5rem;
+    /* height: auto; */
+}
+
+.emoji-span {
+    font-size: 2.7rem;
+    text-align: center;
+}
+
+.great-vibes-regular {
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-size: 5rem;
+    font-style: normal;
+}
+
+.content {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-direction: column;
+}
+
+.card {
+    background-color: #f5e5e5;
+    /* pastel white background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* shadow */
+    padding: 20px;
+    border-radius: 10px;
+    /* optional: add padding to the content */
+    /* width: 10%; */
+}
+
+.first-bird {
+    transform: translate(30%, -80%) scaleX(-1);
+}
+
+.second-bird {
+    transform: translate(-30%, -80%);
+}
+
+button {
+    cursor: pointer;
+}
+
+.yesBtn,
+.noBtn {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.yesBtn {
+    background-color: #9bfd9b;
+    /* muted green */
+    color: #333;
+    /* dark text color */
+}
+
+.noBtn {
+
+    background-color: #f48181;
+    /* muted red */
+    color: #333;
+    /* dark text color */
+}
+
+.yesBtn:hover,
+.noBtn:hover {
+    background-color: #61ff61;
+    /* brighter red on hover */
+}
+
+.noBtn:hover {
+    background-color: #fc3b3b;
+    /* brighter green on hover */
+}
+
+.message-div {
+    display: none;
+    font-size: 2rem;
+    text-align: center;
+}
